@@ -5,7 +5,7 @@ let minScale = 0.1; // minimalna skala
 let mode = 'start'; // zmienna do zmieniania ekranów
 
 function setup() {
-  createCanvas(1920, 1080);
+  createCanvas(1280, 720);
   textAlign(CENTER, CENTER);
   textSize(36);
 }
@@ -56,3 +56,8 @@ function keyPressed() {
     inputText = inputText.slice(0, -1);// usuwa ostatni znak z wpisanego tekstu
     scaleFactor = min(scaleFactor + zoomStep, 1); 
 } }
+
+function keyPressed() {
+  if (keyCode === ENTER) {
+    window.open("https://alka2222.github.io/gryczna_2_3/")
+  }}
