@@ -59,5 +59,5 @@ function keyPressed() {
 
 function keyPressed() {
   if (keyCode === ENTER) {
-    window.open("https://alka2222.github.io/gryczna_2_3/")
+    window.open("https://alka2222.github.io/gryczna_2_3/", "_self")
   }}
