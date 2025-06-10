@@ -5,7 +5,7 @@ let minScale = 0.1; // minimalna skala
 let mode = 'start'; // zmienna do zmieniania ekranów
 
 function setup() {
-  createCanvas(1280, 720);
+  createCanvas(windowWidth, windowHeight);
   textAlign(CENTER, CENTER);
   textSize(36);
 }
